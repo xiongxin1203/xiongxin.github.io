@@ -133,7 +133,7 @@
   
 
 
-  <link rel="alternate" href="/atom.xml" title="xiongxin" type="application/atom+xml">
+  <link rel="alternate" href="/atom.xml" title="au revoir" type="application/atom+xml">
 
 
 
@@ -145,7 +145,7 @@
 <meta property="og:type" content="website">
 <meta property="og:title" content="TopX">
 <meta property="og:url" content="https://xiongxin1203.github.io/top/index.html">
-<meta property="og:site_name" content="xiongxin">
+<meta property="og:site_name" content="au revoir">
 <meta property="og:description" content="博客文章阅读量排行榜">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:updated_time" content="2019-01-30T09:01:31.172Z">
@@ -187,7 +187,7 @@
 
 
 
-  <title>TopX | xiongxin</title>
+  <title>TopX | au revoir</title>
   
 
 
@@ -217,7 +217,7 @@
     <div class="custom-logo-site-title">
       <a href="/" class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">xiongxin</span>
+        <span class="site-title">au revoir</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
@@ -375,7 +375,7 @@
       <div class="post-body">
         
         
-          <p><div id="top"></div></p>
+          <p></p><div id="top"></div><p></p>
 <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
 <script>AV.initialize("IuAWnlVhX3XaxBGFJf0ouPkb-gzGzoHsz", "JLEBfyUtzkYNPha6sNssfak1");</script>
 <script type="text/javascript">
@@ -400,7 +400,25 @@
   });
 </script>
 
-<style>.post-description { display: none; }</style>
+<style>.post-description { display: none; }</style><script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>
         
       </div>
       
@@ -487,6 +505,63 @@
           
 
           
+          
+            <div class="links-of-blogroll motion-element links-of-blogroll-inline">
+              <div class="links-of-blogroll-title">
+                <i class="fa  fa-fw fa-globe"></i>
+                神奇的链接
+              </div>
+              <ul class="links-of-blogroll-list">
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="https://music.163.com/#/user/home?id=86590096" title="😆 网易云音乐 😆" target="_blank">😆 网易云音乐 😆</a>
+                  </li>
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="http://coldplay.com/" title="Coldplay Official Website" target="_blank">Coldplay Official Website</a>
+                  </li>
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="https://elonmusknews.org/" title="获取 Elon Musk 的新闻" target="_blank">获取 Elon Musk 的新闻</a>
+                  </li>
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="http://www.bilibili.com/video/av6211226/" title="尼古拉·特斯拉：发明了现代世界的人" target="_blank">尼古拉·特斯拉：发明了现代世界的人</a>
+                  </li>
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="https://reuixiy.github.io/about/" title="关于此博客" target="_blank">关于此博客</a>
+                  </li>
+                
+              </ul>
+			  <div id="days"></div>
+<script>
+function show_date_time(){
+window.setTimeout("show_date_time()", 1000);
+BirthDay=new Date("01/31/2019 00:00:00");
+today=new Date();
+timeold=(today.getTime()-BirthDay.getTime());
+sectimeold=timeold/1000
+secondsold=Math.floor(sectimeold);
+msPerDay=24*60*60*1000
+e_daysold=timeold/msPerDay
+daysold=Math.floor(e_daysold);
+e_hrsold=(e_daysold-daysold)*24;
+hrsold=setzero(Math.floor(e_hrsold));
+e_minsold=(e_hrsold-hrsold)*60;
+minsold=setzero(Math.floor((e_hrsold-hrsold)*60));
+seconds=setzero(Math.floor((e_minsold-minsold)*60));
+document.getElementById('days').innerHTML="已运行 "+daysold+" 天 "+hrsold+" 小时 "+minsold+" 分 "+seconds+" 秒";
+}
+function setzero(i){
+if (i<10)
+{i="0" + i};
+return i;
+}
+show_date_time();
+</script>
+
+            </div>
           
 
           
@@ -1134,7 +1209,7 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script>
   <script>
-  $("body").backstretch("C:\Users\DELL3020\myHexoBlog\themes\next\source\upload\background.png");
+  $("body").backstretch("/uploads/background.png");
   </script>
 </body>
 </html>
