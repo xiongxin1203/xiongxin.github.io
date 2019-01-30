@@ -284,7 +284,7 @@
             
               <i class="menu-item-icon fa fa-fw fa-signal"></i> <br>
             
-            top
+            TopX
           </a>
         </li>
       
@@ -437,7 +437,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  
+                  73
                 </span>
               
 
@@ -492,6 +492,7 @@
         <div class="post-widgets">
         
           <div class="wp_rating">
+			<div style="color: rgba(0, 0, 0, 0.75); font-size:13px; letter-spacing:3px">(&gt;看完记得五星好评哦亲&lt;)</div>
             <div id="wpac-rating"></div>
           </div>
         
@@ -583,7 +584,9 @@
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
             
+			<a href="/">
               <img class="site-author-image" itemprop="image" src="/uploads/avatar.gif" alt="xiongxin">
+			</a>
             
               <p class="site-author-name" itemprop="name">xiongxin</p>
               <p class="site-description motion-element" itemprop="description"></p>
@@ -624,39 +627,8 @@
 
           
           
-            <div class="links-of-blogroll motion-element links-of-blogroll-inline">
-              <div class="links-of-blogroll-title">
-                <i class="fa  fa-fw fa-globe"></i>
-                神奇的链接
-              </div>
-              <ul class="links-of-blogroll-list">
-                
-                  <li class="links-of-blogroll-item">
-                    <a href="https://music.163.com/#/user/home?id=86590096" title="😆 网易云音乐 😆" target="_blank">😆 网易云音乐 😆</a>
-                  </li>
-                
-                  <li class="links-of-blogroll-item">
-                    <a href="http://coldplay.com/" title="Coldplay Official Website" target="_blank">Coldplay Official Website</a>
-                  </li>
-                
-                  <li class="links-of-blogroll-item">
-                    <a href="https://elonmusknews.org/" title="获取 Elon Musk 的新闻" target="_blank">获取 Elon Musk 的新闻</a>
-                  </li>
-                
-                  <li class="links-of-blogroll-item">
-                    <a href="http://www.bilibili.com/video/av6211226/" title="尼古拉·特斯拉：发明了现代世界的人" target="_blank">尼古拉·特斯拉：发明了现代世界的人</a>
-                  </li>
-                
-                  <li class="links-of-blogroll-item">
-                    <a href="https://reuixiy.github.io/about/" title="关于此博客" target="_blank">关于此博客</a>
-                  </li>
-                
-              </ul>
-            </div>
-          
 
           
-
         </div>
       </section>
 
@@ -690,8 +662,8 @@
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright">&copy; 2017 &mdash; <span itemprop="copyrightYear">2019</span>
-  <span class="with-love">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+  <span class="with-love" id="heart">
     <i class="fa fa-heart"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">xiongxin</span>
@@ -877,7 +849,7 @@
     var isfetched = false;
     var isXml = true;
     // Search DB path;
-    var search_path = "";
+    var search_path = "search.xml";
     if (search_path.length === 0) {
       search_path = "search.xml";
     } else if (/json$/i.test(search_path)) {
@@ -1197,7 +1169,7 @@
 
   
   <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.4.js"></script>
-  <script>AV.initialize("", "");</script>
+  <script>AV.initialize("IuAWnlVhX3XaxBGFJf0ouPkb-gzGzoHsz", "JLEBfyUtzkYNPha6sNssfak1");</script>
   <script>
     function showTime(Counter) {
       var query = new AV.Query(Counter);
@@ -1332,5 +1304,9 @@
 
   
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script>
+  <script>
+  $("body").backstretch("C:\Users\DELL3020\myHexoBlog\themes\next\source\upload\background.png");
+  </script>
 </body>
 </html>
