@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>autant en emporte le vent</title>
+  
+  <subtitle>Gone with the wind</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://xiongxin1203.github.io/"/>
+  <updated>2019-01-31T06:14:13.189Z</updated>
+  <id>https://xiongxin1203.github.io/</id>
+  
+  <author>
+    <name>xiongxin</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Java基于Springboot+gradle编写文件处理脚本</title>
+    <link href="https://xiongxin1203.github.io/blog-java/2019/01/31/file.html"/>
+    <id>https://xiongxin1203.github.io/blog-java/2019/01/31/file.html</id>
+    <published>2019-01-30T16:00:00.000Z</published>
+    <updated>2019-01-31T06:14:13.189Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>##&#x524D;&#x8A00;<br>&#x6700;&#x8FD1;&#x63A5;&#x5230;&#x4E00;&#x4E2A;&#x9700;&#x6C42;&#xFF0C;&#x8981;&#x5C06;&#x4E00;&#x6279;&#x591A;&#x5C42;&#x6B21;&#x6587;&#x4EF6;&#x5939;&#x91CC;&#x9762;&#x7684;&#x6587;&#x4EF6;&#x6839;&#x636E;&#x5176;&#x4E2D;&#x67D0;&#x4E00;&#x5C42;&#x5408;&#x5E76;&#x4E3A;&#x4E00;&#x4E2A;&#x4E2A;PDF&#x6587;&#x4EF6;&#xFF0C;&#x5E76;&#x5C06;&#x6587;&#x4EF6;&#x4E0A;&#x4F20;&#x5230;&#x56FA;&#x5B9A;&#x7684;&#x670D;&#x52A1;&#x5668;&#x4E0A;&#xFF0C;&#x8981;&#x6C42;&#x5904;&#x7406;&#x7684;&#x6587;&#x4EF6;&#x5305;&#x62EC;ppt&#xFF0C;excel&#xFF0C;word&#x4EE5;&#x53CA;&#x5404;&#x79CD;&#x56FE;&#x7247;&#x683C;&#x5F0F;&#xFF0C;&#x5176;&#x4E2D;&#x56FE;&#x7247;&#x683C;&#x5F0F;&#x8981;&#x6C42;&#x538B;&#x7F29;&#x3002;<br>&#x56E0;&#x4E3A;&#x53EA;&#x662F;&#x811A;&#x672C;&#xFF0C;&#x6240;&#x4EE5;&#x57FA;&#x4E8E;&#x6700;&#x57FA;&#x7840;&#x7684;Springboot+gradle&#x6765;&#x6784;&#x5EFA;&#x6846;&#x67B6;&#x3002;<br>&#x5E94;&#x7528;&#x5230;&#x7684;&#x4E3B;&#x8981;&#x6280;&#x672F;&#x6709;&#xFF1A;</p><ol><li>&#x529F;&#x80FD;                                                              &#x4F7F;&#x7528;&#x6280;&#x672F;</li><li>office&#x6587;&#x4EF6;&#x8F6C;pdf                                                   aspose</li><li>&#x56FE;&#x7247;&#x538B;&#x7F29;                                                          &#x7B49;&#x5BBD;&#x538B;&#x7F29;&#xFF08;&#x5B9E;&#x6D4B;&#x6548;&#x679C;&#x6BD4;&#x8F83;&#x597D;&#xFF0C;&#x4F46;&#x662F;&#x538B;&#x7F29;&#x5927;&#x5C0F;&#x4E0D;&#x662F;&#x5F88;&#x7406;&#x60F3;&#xFF09;</li><li>&#x56FE;&#x7247;&#x8F6C;pdf                                                         itext</li><li>pdf&#x5408;&#x6210;                                                           itext</li><li>&#x56FE;&#x7247;&#x683C;&#x5F0F;&#x8F6C;&#x5316;&#xFF08;&#x90E8;&#x5206;&#x56FE;&#x7247;&#x683C;&#x5F0F;&#x7528;itext&#x8F6C;pdf&#x4F1A;&#x62A5;&#x9519;&#xFF0C;&#x5148;&#x8F6C;&#x5316;&#x4E3A;&#x5176;&#x4ED6;&#x683C;&#x5F0F;&#x518D;&#x8F6C;pdf&#xFF09;  jai      </li><li>&#x8BFB;&#x53D6;excel&#x6587;&#x4EF6;                                                      poi</li><li>&#x4E0A;&#x4F20;&#x6587;&#x4EF6;                                                           httpclient</li><li>&#x8F93;&#x51FA;csv&#x6587;&#x4EF6;                                                        csv  </li></ol><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      Java基于Springboot+gradle编写文件处理脚本
+    
+    </summary>
+    
+      <category term="blog/java" scheme="https://xiongxin1203.github.io/categories/blog-java/"/>
+    
+    
+      <category term="java" scheme="https://xiongxin1203.github.io/tags/java/"/>
+    
+      <category term="Blog" scheme="https://xiongxin1203.github.io/tags/Blog/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>感谢reuixiy同学的hexo教程（转载）</title>
+    <link href="https://xiongxin1203.github.io/blog-hexo/2019/01/31/MyFirstBlog.html"/>
+    <id>https://xiongxin1203.github.io/blog-hexo/2019/01/31/MyFirstBlog.html</id>
+    <published>2019-01-30T16:00:00.000Z</published>
+    <updated>2019-01-31T02:17:31.952Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>&#x4E00;&#x76F4;&#x60F3;&#x642D;&#x5EFA;&#x81EA;&#x5DF1;&#x7684;Blog&#xFF0C;&#x5374;&#x4E5F;&#x6CA1;&#x4EC0;&#x4E48;&#x65F6;&#x95F4;&#x5904;&#x7406;&#xFF0C;&#x6B63;&#x597D;&#x540C;&#x4E8B;&#x63A8;&#x8350;&#x4E86;hexo&#xFF0C;&#x518D;&#x52A0;&#x4E0A;&#x63A5;&#x8FD1;&#x5E74;&#x5173;&#x5DE5;&#x4F5C;&#x6CA1;&#x90A3;&#x4E48;&#x5FD9;&#x4E86;&#xFF0C;&#x82B1;&#x4E86;&#x4E00;&#x5929;&#x7684;&#x65F6;&#x95F4;&#xFF0C;&#x7EC8;&#x4E8E;&#x642D;&#x5EFA;&#x597D;&#x4E86;&#x81EA;&#x5DF1;&#x7684;Blog&#x3002;&#x611F;&#x8C22;reuixiy&#x540C;&#x5B66;&#x7684;&#x6559;&#x7A0B;&#x3002;&#x4E5F;&#x63A8;&#x8350;&#x7ED9;&#x5927;&#x5BB6;&#xFF0C;&#x94FE;&#x63A5;&#x5728;&#x8FD9;&#x91CC;&#xFF1A;<a href="https://reuixiy.github.io/technology/computer/computer-aided-art/2017/06/09/hexo-next-optimization.html#" target="_blank" rel="noopener">https://reuixiy.github.io/technology/computer/computer-aided-art/2017/06/09/hexo-next-optimization.html#</a><br>&#x76EE;&#x524D;&#x5BF9;hexo&#x7684;&#x7406;&#x89E3;&#x8FD8;&#x505C;&#x7559;&#x4E8E;&#x76AE;&#x6BDB;&#xFF0C;&#x51E0;&#x4E4E;&#x5C31;&#x662F;&#x7167;&#x7740;reuixiy&#x540C;&#x5B66;&#x7684;&#x535A;&#x5BA2;&#x7167;&#x6284;&#xFF0C;&#x6709;&#x7684;&#x8FD8;&#x6CA1;&#x6284;&#x4E0B;&#x6765;&#x3002;&#x5E0C;&#x671B;&#x540E;&#x9762;&#x6709;&#x65F6;&#x95F4;&#x53EF;&#x4EE5;&#x591A;&#x591A;&#x7814;&#x7A76;&#x3002;</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      hexo博客搭建及美化教程
+    
+    </summary>
+    
+      <category term="blog/hexo" scheme="https://xiongxin1203.github.io/categories/blog-hexo/"/>
+    
+    
+      <category term="Blog" scheme="https://xiongxin1203.github.io/tags/Blog/"/>
+    
+      <category term="hexo" scheme="https://xiongxin1203.github.io/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://xiongxin1203.github.io/uncategorized/2019/01/29/hello-world.html"/>
+    <id>https://xiongxin1203.github.io/uncategorized/2019/01/29/hello-world.html</id>
+    <published>2019-01-29T09:52:17.486Z</published>
+    <updated>2019-01-29T09:52:17.486Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></tbody></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></tbody></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></tbody></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></tbody></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
