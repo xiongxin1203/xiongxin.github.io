@@ -146,7 +146,7 @@
 <meta property="og:site_name" content="autant en emporte le vent">
 <meta property="og:description" content="Java基于Springboot+gradle编写文件处理脚本">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-02-01T03:19:05.323Z">
+<meta property="og:updated_time" content="2019-02-01T03:37:24.227Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Java基于Springboot+gradle编写文件处理脚本">
 <meta name="twitter:description" content="Java基于Springboot+gradle编写文件处理脚本">
@@ -440,7 +440,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  1.4k
+                  1.6k
                 </span>
               
 
@@ -478,7 +478,7 @@
 <p></p><blockquote class="question">&#x8BFB;&#x53D6;excel&#x6587;&#x4EF6;</blockquote>poi<p></p>
 <p></p><blockquote class="question">&#x4E0A;&#x4F20;&#x6587;&#x4EF6;</blockquote>httpclient<p></p>
 <p></p><blockquote class="question">&#x8F93;&#x51FA;csv&#x6587;&#x4EF6;</blockquote>csv  <p></p>
-<h2 id="&#x6B63;&#x6587;"><a href="#&#x6B63;&#x6587;" class="headerlink" title="&#x6B63;&#x6587;"></a>&#x6B63;&#x6587;</h2><h3 id="office&#x6587;&#x4EF6;&#x8F6C;pdf"><a href="#office&#x6587;&#x4EF6;&#x8F6C;pdf" class="headerlink" title="office&#x6587;&#x4EF6;&#x8F6C;pdf"></a>office&#x6587;&#x4EF6;&#x8F6C;pdf</h3><p>&#x5E9F;&#x8BDD;&#x4E0D;&#x591A;&#x8BF4;&#xFF0C;&#x76F4;&#x63A5;&#x4E0A;&#x4EE3;&#x7801;</p>
+<h2 id="&#x6B63;&#x6587;"><a href="#&#x6B63;&#x6587;" class="headerlink" title="&#x6B63;&#x6587;"></a>&#x6B63;&#x6587;</h2><h3 id="office&#x6587;&#x4EF6;&#x8F6C;pdf"><a href="#office&#x6587;&#x4EF6;&#x8F6C;pdf" class="headerlink" title="office&#x6587;&#x4EF6;&#x8F6C;pdf"></a>office&#x6587;&#x4EF6;&#x8F6C;pdf</h3><p>&#x5E9F;&#x8BDD;&#x4E0D;&#x591A;&#x8BF4;&#xFF0C;&#x76F4;&#x63A5;&#x4E0A;&#x4EE3;&#x7801;:</p>
 <pre><code>/**
  * word&#x8F6C;PDF&#x7684;license&#x9A8C;&#x8BC1;
  *
@@ -661,9 +661,32 @@ private Integer getPercent(Float w) {
     p = Math.round(p2);
     return p;
 }
-</code></pre><div class="note success"><p>&#x8FD9;&#x4E2A;&#x6CA1;&#x4EC0;&#x4E48;&#x597D;&#x8BB2;&#x7684;&#xFF0C;&#x4F60;&#x8FD8;&#x53EF;&#x4EE5;&#x9009;&#x62E9;&#x7B49;&#x9AD8;&#x538B;&#x7F29;&#xFF0C;&#x7B49;&#x6BD4;&#x4F8B;&#x538B;&#x7F29;&#x7B49;&#xFF0C;&#x8FD9;&#x4E9B;&#x767E;&#x5EA6;&#x90FD;&#x80FD;&#x67E5;&#x5230;&#xFF0C;&#x53EF;&#x4EE5;&#x5B9E;&#x9645;&#x538B;&#x7F29;&#x770B;&#x4E00;&#x4E0B;&#x54EA;&#x79CD;&#x6548;&#x679C;&#x6BD4;&#x8F83;&#x6EE1;&#x610F;&#xFF0C;&#x6211;&#x6700;&#x7EC8;&#x9009;&#x62E9;&#x4E86;&#x7B49;&#x5BBD;&#x538B;&#x7F29;</p></div>&#x8FD8;&#x6709;&#x4E00;&#x79CD;&#x4F7F;&#x7528;Thumbnails&#x538B;&#x7F29;&#xFF0C;&#x53EF;&#x4EE5;&#x538B;&#x7F29;&#x7684;&#x5F88;&#x5C0F;&#xFF0C;&#x4F46;&#x662F;&#x56FE;&#x7247;&#x53EF;&#x80FD;&#x4F1A;&#x4E0D;&#x6E05;&#x6670;&#xFF0C;&#x7531;&#x4E8E;&#x6211;&#x8FD9;&#x8FB9;&#x5904;&#x7406;&#x7684;&#x6587;&#x4EF6;&#x5F88;&#x591A;&#x5F88;&#x6742;&#xFF0C;&#x800C;&#x4E14;&#x5BF9;&#x6E05;&#x6670;&#x5EA6;&#x8981;&#x6C42;&#x8F83;&#x9AD8;&#xFF0C;&#x6240;&#x4EE5;&#x6700;&#x7EC8;&#x6CA1;&#x6709;&#x9009;&#x62E9;&#x5B83;<br>    <code>Thumbnails.of(sourceFilePath).scale(0.5f).toFile(targetFilePath);</code><br><br><div class="note success"><p>&#x524D;&#x9762;&#x5199;&#x6E90;&#x6587;&#x4EF6;&#x5730;&#x5740;&#xFF0C;&#x540E;&#x9762;&#x5199;&#x76EE;&#x6807;&#x6587;&#x4EF6;&#x5730;&#x5740;&#xFF0C;scale&#x662F;&#x538B;&#x7F29;&#x7387;&#xFF0C;&#x8D8A;&#x5C0F;&#x538B;&#x7F29;&#x7684;&#x8D8A;&#x5C0F;&#xFF0C;&#x6548;&#x679C;&#x8D8A;&#x5DEE;&#x3002;&#x8FD8;&#x6709;&#x4E00;&#x4E9B;&#x529F;&#x80FD;&#x53EF;&#x4EE5;&#x53BB;&#x5B98;&#x65B9;&#x6587;&#x6863;&#x53BB;&#x67E5;&#x4E00;&#x4E0B;&#xFF0C;&#x90FD;&#x6BD4;&#x8F83;&#x7B80;&#x5355;</p></div>
+</code></pre><div class="note info"><p>&#x8FD9;&#x4E2A;&#x6CA1;&#x4EC0;&#x4E48;&#x597D;&#x8BB2;&#x7684;&#xFF0C;&#x4F60;&#x8FD8;&#x53EF;&#x4EE5;&#x9009;&#x62E9;&#x7B49;&#x9AD8;&#x538B;&#x7F29;&#xFF0C;&#x7B49;&#x6BD4;&#x4F8B;&#x538B;&#x7F29;&#x7B49;&#xFF0C;&#x8FD9;&#x4E9B;&#x767E;&#x5EA6;&#x90FD;&#x80FD;&#x67E5;&#x5230;&#xFF0C;&#x53EF;&#x4EE5;&#x5B9E;&#x9645;&#x538B;&#x7F29;&#x770B;&#x4E00;&#x4E0B;&#x54EA;&#x79CD;&#x6548;&#x679C;&#x6BD4;&#x8F83;&#x6EE1;&#x610F;&#xFF0C;&#x6211;&#x6700;&#x7EC8;&#x9009;&#x62E9;&#x4E86;&#x7B49;&#x5BBD;&#x538B;&#x7F29;</p></div>&#x8FD8;&#x6709;&#x4E00;&#x79CD;&#x4F7F;&#x7528;Thumbnails&#x538B;&#x7F29;&#xFF0C;&#x53EF;&#x4EE5;&#x538B;&#x7F29;&#x7684;&#x5F88;&#x5C0F;&#xFF0C;&#x4F46;&#x662F;&#x56FE;&#x7247;&#x53EF;&#x80FD;&#x4F1A;&#x4E0D;&#x6E05;&#x6670;&#xFF0C;&#x7531;&#x4E8E;&#x6211;&#x8FD9;&#x8FB9;&#x5904;&#x7406;&#x7684;&#x6587;&#x4EF6;&#x5F88;&#x591A;&#x5F88;&#x6742;&#xFF0C;&#x800C;&#x4E14;&#x5BF9;&#x6E05;&#x6670;&#x5EA6;&#x8981;&#x6C42;&#x8F83;&#x9AD8;&#xFF0C;&#x6240;&#x4EE5;&#x6700;&#x7EC8;&#x6CA1;&#x6709;&#x9009;&#x62E9;&#x5B83;<br>    <code>Thumbnails.of(sourceFilePath).scale(0.5f).toFile(targetFilePath);</code><br><br><div class="note info"><p>&#x524D;&#x9762;&#x5199;&#x6E90;&#x6587;&#x4EF6;&#x5730;&#x5740;&#xFF0C;&#x540E;&#x9762;&#x5199;&#x76EE;&#x6807;&#x6587;&#x4EF6;&#x5730;&#x5740;&#xFF0C;scale&#x662F;&#x538B;&#x7F29;&#x7387;&#xFF0C;&#x8D8A;&#x5C0F;&#x538B;&#x7F29;&#x7684;&#x8D8A;&#x5C0F;&#xFF0C;&#x6548;&#x679C;&#x8D8A;&#x5DEE;&#x3002;&#x8FD8;&#x6709;&#x4E00;&#x4E9B;&#x529F;&#x80FD;&#x53EF;&#x4EE5;&#x53BB;&#x5B98;&#x65B9;&#x6587;&#x6863;&#x53BB;&#x67E5;&#x4E00;&#x4E0B;&#xFF0C;&#x90FD;&#x6BD4;&#x8F83;&#x7B80;&#x5355;</p></div>
 
-<h3 id="&#x56FE;&#x7247;&#x8F6C;pdf"><a href="#&#x56FE;&#x7247;&#x8F6C;pdf" class="headerlink" title="&#x56FE;&#x7247;&#x8F6C;pdf"></a>&#x56FE;&#x7247;&#x8F6C;pdf</h3><script>
+<h3 id="&#x56FE;&#x7247;&#x8F6C;pdf"><a href="#&#x56FE;&#x7247;&#x8F6C;pdf" class="headerlink" title="&#x56FE;&#x7247;&#x8F6C;pdf"></a>&#x56FE;&#x7247;&#x8F6C;pdf</h3><p>&#x8001;&#x89C4;&#x77E9;&#x76F4;&#x63A5;&#x4E0A;&#x4EE3;&#x7801;:</p>
+<pre><code>/**
+ * &#x56FE;&#x7247;&#x8F6C;PDF&#x6587;&#x4EF6;
+ *
+ * @param sourceFile File
+ * @param targetFile File
+ */
+private void picToPdf(File sourceFile, File targetFile) {
+    com.itextpdf.text.Document doc = new com.itextpdf.text.Document();
+    try {
+        PdfWriter.getInstance(doc, new FileOutputStream(targetFile.getAbsoluteFile()));
+        doc.open();
+        Image img = Image.getInstance(sourceFile.getAbsolutePath());
+        Float width = img.getWidth();
+        Integer percent = getPercent(width);    //&#x8C03;&#x7528;&#x538B;&#x7F29;&#x56FE;&#x7247;&#x7684;&#x65B9;&#x6CD5;
+        img.setAlignment(Image.MIDDLE);
+        img.scalePercent(percent);
+        doc.add(img);
+        doc.close();
+    } catch (Exception e) {
+        e.printStackTrace();
+    }
+}
+</code></pre><div class="note success"><p>&#x8FD9;&#x4E2A;&#x5C31;&#x662F;&#x5B9E;&#x4F8B;&#x5316;&#x4E86;&#x4E00;&#x4E2A;document&#x548C;pdfWriter&#xFF0C;pdfWriter&#x8D1F;&#x8D23;&#x5C06;document&#x7528;&#x6D41;&#x5199;&#x5165;&#x76EE;&#x6807;&#x6587;&#x4EF6;&#xFF0C;&#x540E;&#x9762;&#x90FD;&#x662F;&#x9488;&#x5BF9;document&#x52A0;&#x5165;&#x56FE;&#x7247;&#x7684;&#x64CD;&#x4F5C;&#xFF0C;&#x5176;&#x5B9E;&#x4E5F;&#x53EF;&#x4EE5;&#x52A0;&#x5165;&#x5176;&#x4ED6;&#x7684;&#x4E1C;&#x897F;&#xFF0C;&#x6BD4;&#x5982;&#x6587;&#x5B57;&#x4EC0;&#x4E48;&#x7684;</p></div><div class="note info"><p>&#x8FD9;&#x91CC;&#x5982;&#x679C;&#x5904;&#x7406;&#x7684;&#x90FD;&#x662F;&#x56FE;&#x7247;&#xFF0C;&#x53EF;&#x4EE5;&#x9009;&#x62E9;&#x4F20;&#x5165;fileList&#xFF0C;&#x8FD9;&#x6837;&#x53EF;&#x4EE5;&#x4E0D;&#x7528;&#x518D;&#x8FDB;&#x884C;pdf&#x5408;&#x5E76;&#x8FD9;&#x4E2A;&#x64CD;&#x4F5C;&#xFF0C;&#x6211;&#x8FD9;&#x8FB9;&#x7531;&#x4E8E;&#x4E0D;&#x53EA;&#x662F;&#x5904;&#x7406;&#x56FE;&#x7247;&#xFF0C;&#x6240;&#x4EE5;&#x8FD8;&#x662F;&#x9009;&#x62E9;&#x4E86;&#x5355;&#x4E2A;&#x8F6C;&#x6700;&#x540E;&#x4E00;&#x8D77;&#x5408;&#x5E76;&#x7684;&#x65B9;&#x6CD5;</p></div><script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
             if (!el.dataset.src) { return; }
