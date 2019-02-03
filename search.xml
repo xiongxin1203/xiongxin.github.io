@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[感谢reuixiy同学的hexo教程（转载）]]></title>
-    <url>%2Fblog-hexo%2F2019%2F01%2F31%2FMyFirstBlog.html</url>
-    <content type="text"><![CDATA[&#x4E00;&#x76F4;&#x60F3;&#x642D;&#x5EFA;&#x81EA;&#x5DF1;&#x7684;Blog&#xFF0C;&#x5374;&#x4E5F;&#x6CA1;&#x4EC0;&#x4E48;&#x65F6;&#x95F4;&#x5904;&#x7406;&#xFF0C;&#x6B63;&#x597D;&#x540C;&#x4E8B;&#x63A8;&#x8350;&#x4E86;hexo&#xFF0C;&#x518D;&#x52A0;&#x4E0A;&#x63A5;&#x8FD1;&#x5E74;&#x5173;&#x5DE5;&#x4F5C;&#x6CA1;&#x90A3;&#x4E48;&#x5FD9;&#x4E86;&#xFF0C;&#x82B1;&#x4E86;&#x4E00;&#x5929;&#x7684;&#x65F6;&#x95F4;&#xFF0C;&#x7EC8;&#x4E8E;&#x642D;&#x5EFA;&#x597D;&#x4E86;&#x81EA;&#x5DF1;&#x7684;Blog&#x3002;&#x611F;&#x8C22;reuixiy&#x540C;&#x5B66;&#x7684;&#x6559;&#x7A0B;&#x3002;&#x4E5F;&#x63A8;&#x8350;&#x7ED9;&#x5927;&#x5BB6;&#xFF0C;&#x94FE;&#x63A5;&#x5728;&#x8FD9;&#x91CC;&#xFF1A;https://reuixiy.github.io/technology/computer/computer-aided-art/2017/06/09/hexo-next-optimization.html#&#x76EE;&#x524D;&#x5BF9;hexo&#x7684;&#x7406;&#x89E3;&#x8FD8;&#x505C;&#x7559;&#x4E8E;&#x76AE;&#x6BDB;&#xFF0C;&#x51E0;&#x4E4E;&#x5C31;&#x662F;&#x7167;&#x7740;reuixiy&#x540C;&#x5B66;&#x7684;&#x535A;&#x5BA2;&#x7167;&#x6284;&#xFF0C;&#x6709;&#x7684;&#x8FD8;&#x6CA1;&#x6284;&#x4E0B;&#x6765;&#x3002;&#x5E0C;&#x671B;&#x540E;&#x9762;&#x6709;&#x65F6;&#x95F4;&#x53EF;&#x4EE5;&#x591A;&#x591A;&#x7814;&#x7A76;&#x3002; document.querySelectorAll('.github-emoji') .forEach(el => { if (!el.dataset.src) { return; } const img = document.createElement('img'); img.style = 'display:none !important;'; img.src = el.dataset.src; img.addEventListener('error', () => { img.remove(); el.style.color = 'inherit'; el.style.backgroundImage = 'none'; el.style.background = 'none'; }); img.addEventListener('load', () => { img.remove(); }); document.body.appendChild(img); });]]></content>
+    <title><![CDATA[算法基础八大排序三大查找之八大排序]]></title>
+    <url>%2Fblog-java%2F2019%2F02%2F03%2FAlgorithms.html</url>
+    <content type="text"><![CDATA[&#x524D;&#x8A00;&#x6700;&#x8FD1;&#x5728;&#x5237;leetcode&#xFF0C;&#x611F;&#x89C9;&#x81EA;&#x5DF1;&#x5728;&#x505A;&#x7684;&#x8FC7;&#x7A0B;&#x4E2D;&#x8FD8;&#x662F;&#x7F3A;&#x4E4F;&#x603B;&#x7ED3;&#xFF0C;&#x6240;&#x4EE5;&#x51C6;&#x5907;&#x4E00;&#x8FB9;&#x5237;&#x4E00;&#x8FB9;&#x603B;&#x7ED3;&#x4E00;&#x4E9B;&#x57FA;&#x7840;&#x77E5;&#x8BC6;&#x548C;&#x5E38;&#x7528;&#x7684;&#x7B97;&#x6CD5;&#x3002;&#x8FD9;&#x7BC7;&#x6587;&#x7AE0;&#x603B;&#x7ED3;&#x4E00;&#x4E0B;&#x7B97;&#x6CD5;&#x7684;&#x57FA;&#x7840;&#x77E5;&#x8BC6;&#x2014;&#x2014;&#x516B;&#x5927;&#x6392;&#x5E8F; &#x6B63;&#x6587;&#x9996;&#x5148;&#x516B;&#x5927;&#x6392;&#x5E8F;&#x90FD;&#x662F;&#x54EA;&#x4E9B;&#x6392;&#x5E8F;&#x5462;&#xFF1F;&#x516B;&#x5927;&#x6392;&#x5E8F;&#xFF1A;&#x76F4;&#x63A5;&#x63D2;&#x5165;&#x6392;&#x5E8F;&#xFF0C;&#x5E0C;&#x5C14;&#x6392;&#x5E8F;&#xFF0C;&#x7B80;&#x5355;&#x9009;&#x62E9;&#x6392;&#x5E8F;&#xFF0C;&#x5806;&#x6392;&#x5E8F;&#xFF0C;&#x5192;&#x6CE1;&#x6392;&#x5E8F;&#xFF0C;&#x5FEB;&#x901F;&#x6392;&#x5E8F;&#xFF0C;&#x5F52;&#x5E76;&#x6392;&#x5E8F;&#xFF0C;&#x57FA;&#x6570;&#x6392;&#x5E8F;&#x8FD9;&#x662F;&#x6392;&#x5E8F;&#x7B97;&#x6CD5;&#x5173;&#x7CFB;&#xFF1A;&#x8FD9;&#x662F;&#x6392;&#x5E8F;&#x7B97;&#x6CD5;&#x6027;&#x80FD;&#x6BD4;&#x8F83;&#xFF1A;&#x63A5;&#x4E0B;&#x6765;&#x6211;&#x4EEC;&#x4E00;&#x4E2A;&#x4E00;&#x4E2A;&#x6765;&#x8BB2; &#x76F4;&#x63A5;&#x63D2;&#x5165;&#x6392;&#x5E8F; document.querySelectorAll('.github-emoji') .forEach(el => { if (!el.dataset.src) { return; } const img = document.createElement('img'); img.style = 'display:none !important;'; img.src = el.dataset.src; img.addEventListener('error', () => { img.remove(); el.style.color = 'inherit'; el.style.backgroundImage = 'none'; el.style.background = 'none'; }); img.addEventListener('load', () => { img.remove(); }); document.body.appendChild(img); });]]></content>
       <categories>
-        <category>blog/hexo</category>
+        <category>blog/java</category>
       </categories>
       <tags>
-        <tag>hexo</tag>
+        <tag>java</tag>
         <tag>Blog</tag>
       </tags>
   </entry>
@@ -20,8 +20,20 @@
         <category>blog/java</category>
       </categories>
       <tags>
-        <tag>Blog</tag>
         <tag>java</tag>
+        <tag>Blog</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[感谢reuixiy同学的hexo教程（转载）]]></title>
+    <url>%2Fblog-hexo%2F2019%2F01%2F31%2FMyFirstBlog.html</url>
+    <content type="text"><![CDATA[&#x4E00;&#x76F4;&#x60F3;&#x642D;&#x5EFA;&#x81EA;&#x5DF1;&#x7684;Blog&#xFF0C;&#x5374;&#x4E5F;&#x6CA1;&#x4EC0;&#x4E48;&#x65F6;&#x95F4;&#x5904;&#x7406;&#xFF0C;&#x6B63;&#x597D;&#x540C;&#x4E8B;&#x63A8;&#x8350;&#x4E86;hexo&#xFF0C;&#x518D;&#x52A0;&#x4E0A;&#x63A5;&#x8FD1;&#x5E74;&#x5173;&#x5DE5;&#x4F5C;&#x6CA1;&#x90A3;&#x4E48;&#x5FD9;&#x4E86;&#xFF0C;&#x82B1;&#x4E86;&#x4E00;&#x5929;&#x7684;&#x65F6;&#x95F4;&#xFF0C;&#x7EC8;&#x4E8E;&#x642D;&#x5EFA;&#x597D;&#x4E86;&#x81EA;&#x5DF1;&#x7684;Blog&#x3002;&#x611F;&#x8C22;reuixiy&#x540C;&#x5B66;&#x7684;&#x6559;&#x7A0B;&#x3002;&#x4E5F;&#x63A8;&#x8350;&#x7ED9;&#x5927;&#x5BB6;&#xFF0C;&#x94FE;&#x63A5;&#x5728;&#x8FD9;&#x91CC;&#xFF1A;https://reuixiy.github.io/technology/computer/computer-aided-art/2017/06/09/hexo-next-optimization.html#&#x76EE;&#x524D;&#x5BF9;hexo&#x7684;&#x7406;&#x89E3;&#x8FD8;&#x505C;&#x7559;&#x4E8E;&#x76AE;&#x6BDB;&#xFF0C;&#x51E0;&#x4E4E;&#x5C31;&#x662F;&#x7167;&#x7740;reuixiy&#x540C;&#x5B66;&#x7684;&#x535A;&#x5BA2;&#x7167;&#x6284;&#xFF0C;&#x6709;&#x7684;&#x8FD8;&#x6CA1;&#x6284;&#x4E0B;&#x6765;&#x3002;&#x5E0C;&#x671B;&#x540E;&#x9762;&#x6709;&#x65F6;&#x95F4;&#x53EF;&#x4EE5;&#x591A;&#x591A;&#x7814;&#x7A76;&#x3002; document.querySelectorAll('.github-emoji') .forEach(el => { if (!el.dataset.src) { return; } const img = document.createElement('img'); img.style = 'display:none !important;'; img.src = el.dataset.src; img.addEventListener('error', () => { img.remove(); el.style.color = 'inherit'; el.style.backgroundImage = 'none'; el.style.background = 'none'; }); img.addEventListener('load', () => { img.remove(); }); document.body.appendChild(img); });]]></content>
+      <categories>
+        <category>blog/hexo</category>
+      </categories>
+      <tags>
+        <tag>Blog</tag>
+        <tag>hexo</tag>
       </tags>
   </entry>
   <entry>
