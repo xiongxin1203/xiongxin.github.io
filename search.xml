@@ -2,14 +2,15 @@
 <search>
   <entry>
     <title><![CDATA[算法基础之八大排序]]></title>
-    <url>%2Fblog-java%2F2019%2F02%2F03%2FAlgorithms.html</url>
+    <url>%2Fblog-java-Algorithms%2F2019%2F02%2F03%2FAlgorithms.html</url>
     <content type="text"><![CDATA[&#x524D;&#x8A00;&#x6700;&#x8FD1;&#x5728;&#x5237;leetcode&#xFF0C;&#x611F;&#x89C9;&#x81EA;&#x5DF1;&#x5728;&#x505A;&#x7684;&#x8FC7;&#x7A0B;&#x4E2D;&#x8FD8;&#x662F;&#x7F3A;&#x4E4F;&#x603B;&#x7ED3;&#xFF0C;&#x6240;&#x4EE5;&#x51C6;&#x5907;&#x4E00;&#x8FB9;&#x5237;&#x4E00;&#x8FB9;&#x603B;&#x7ED3;&#x4E00;&#x4E9B;&#x57FA;&#x7840;&#x77E5;&#x8BC6;&#x548C;&#x5E38;&#x7528;&#x7684;&#x7B97;&#x6CD5;&#x3002;&#x8FD9;&#x7BC7;&#x6587;&#x7AE0;&#x51C6;&#x5907;&#x603B;&#x7ED3;&#x4E00;&#x4E0B;&#x7B97;&#x6CD5;&#x7684;&#x57FA;&#x7840;&#x77E5;&#x8BC6;&#x516B;&#x5927;&#x6392;&#x5E8F;&#x4E09;&#x5927;&#x67E5;&#x627E;&#x4E2D;&#x7684;&#x516B;&#x5927;&#x6392;&#x5E8F; &#x6B63;&#x6587;&#x9996;&#x5148;&#x516B;&#x5927;&#x6392;&#x5E8F;&#x90FD;&#x662F;&#x54EA;&#x4E9B;&#x6392;&#x5E8F;&#x5462;&#xFF1F;&#x516B;&#x5927;&#x6392;&#x5E8F;&#xFF1A;&#x76F4;&#x63A5;&#x63D2;&#x5165;&#x6392;&#x5E8F;&#xFF0C;&#x5E0C;&#x5C14;&#x6392;&#x5E8F;&#xFF0C;&#x7B80;&#x5355;&#x9009;&#x62E9;&#x6392;&#x5E8F;&#xFF0C;&#x5806;&#x6392;&#x5E8F;&#xFF0C;&#x5192;&#x6CE1;&#x6392;&#x5E8F;&#xFF0C;&#x5FEB;&#x901F;&#x6392;&#x5E8F;&#xFF0C;&#x5F52;&#x5E76;&#x6392;&#x5E8F;&#xFF0C;&#x57FA;&#x6570;&#x6392;&#x5E8F;&#x8FD9;&#x662F;&#x6392;&#x5E8F;&#x7B97;&#x6CD5;&#x5173;&#x7CFB;&#xFF1A;&#x8FD9;&#x662F;&#x6392;&#x5E8F;&#x7B97;&#x6CD5;&#x6027;&#x80FD;&#x6BD4;&#x8F83;&#xFF1A;&#x63A5;&#x4E0B;&#x6765;&#x6211;&#x4EEC;&#x4E00;&#x4E2A;&#x4E00;&#x4E2A;&#x6765;&#x8BB2; &#x76F4;&#x63A5;&#x63D2;&#x5165;&#x6392;&#x5E8F; document.querySelectorAll('.github-emoji') .forEach(el => { if (!el.dataset.src) { return; } const img = document.createElement('img'); img.style = 'display:none !important;'; img.src = el.dataset.src; img.addEventListener('error', () => { img.remove(); el.style.color = 'inherit'; el.style.backgroundImage = 'none'; el.style.background = 'none'; }); img.addEventListener('load', () => { img.remove(); }); document.body.appendChild(img); });]]></content>
       <categories>
-        <category>blog/java</category>
+        <category>blog/java/Algorithms</category>
       </categories>
       <tags>
-        <tag>Blog</tag>
         <tag>java</tag>
+        <tag>Algorithms</tag>
+        <tag>Blog</tag>
       </tags>
   </entry>
   <entry>
@@ -20,8 +21,8 @@
         <category>blog/hexo</category>
       </categories>
       <tags>
-        <tag>hexo</tag>
         <tag>Blog</tag>
+        <tag>hexo</tag>
       </tags>
   </entry>
   <entry>
@@ -32,8 +33,8 @@
         <category>blog/java</category>
       </categories>
       <tags>
-        <tag>Blog</tag>
         <tag>java</tag>
+        <tag>Blog</tag>
       </tags>
   </entry>
   <entry>
